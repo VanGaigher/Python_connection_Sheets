@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "etl-process"
+version = "0.1.0"
+description = ""
+authors = ["Vanessa Gaigher <vanessa.mat.sedu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11.9"
+pandas = "^2.2.2"
+gspread = "^6.1.2"
+google-auth = "^2.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
